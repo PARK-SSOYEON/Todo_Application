@@ -1,0 +1,95 @@
+*{
+    font-family: "Goorm Sans", sans-serif;
+    padding: 2px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    min-height: 100vh;
+}
+
+header{
+    background-color: #d5bdaf;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-group{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+main{
+    background-color: #f5ebe0;
+    width: 100%;
+
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+section{
+    width: 30%;
+    min-width: 400px;
+}
+
+footer{
+    background-color: #d6ccc2;
+    width: 100%;
+
+    text-align: center;
+}
+
+#taskInput{
+    width: 30%;
+    min-width: 300px;
+    height: 30px;
+    border: 2px solid #d6ccc2;
+    border-radius: 30px;
+}
+
+button:hover, #inputButton:hover {
+    background-color: #edede9;
+}
+
+#inputButton{
+    margin-left: 5px;
+
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border: 2px solid #d6ccc2;
+    border-radius: 50%;
+}
+
+li > * {
+    display: inline-block;
+}
+
+ul button {
+    padding: 4px;
+    margin-left: 5px;
+    background-color: white;
+    border: 2px solid #d6ccc2;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+    width: 40%;
+    min-width: 400px;
+}
